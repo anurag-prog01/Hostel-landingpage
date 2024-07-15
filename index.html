@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nandhanam hostel.in</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#courses">About</a></li>
+            <li><a href="#Gallery">GALLERY</a></li>
+            <li><a href="#ameneties1">AMENITIES</a></li>
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Nandhanam boys hostel</h1>
+        <p>
+            Bunk beds and late-night talks</br>Be the perfect recipe for lifelong friendships.
+        </p>
+        <a href="" class="hero-btn">Visit Us to Know More</a>
+      </div>
+     
+    </section>
+
+    <!------------About----------->
+  <section>
+    <div class="About">
+      <h1>About Nandhanam</h1>
+      <h2>PG Hostel accommodations in Coimbatore</h2>
+      <div class="content">
+          <p>Welcome to Nandhanam Boys Hostel, a premier accommodation facility located in the heart of Coimbatore. We excel in providing top-notch lodging solutions for students and working professionals.  Our hostel is strategically situated near major educational institutions,making it the perfect choice for those seeking convenience, comfort, and quality service.</p>
+      </div>
+  </section>
+
+    <!---------Gallery-------- --->
+    <section>
+      <h3>Gallery</h3>
+    </section>
+
+
+    <section class="Gallery" id="Gallery">
+      <div class="image-gallery">
+      <div>
+        <img src="hos2.jpg"/>
+      </div>
+      <div>
+        <img src="hos3.jpg"/>
+      </div>
+      <div>
+        <img src="hos1.jpg"/>
+      </div>
+      </div>
+
+    <!------------Facilities----------->
+    <div class="amenities" id="amenities1">
+      <h2>Amenities</h2>
+      <div class="amenities1">
+          <div class="amenity">
+              <i class="fas fa-parking"></i>
+              <h3>Parking</h3>
+              <p>2-Wheeler Parking</p>
+          </div>
+          <div class="amenity">
+              <i class="fas fa-wifi"></i>
+              <h3>Wifi</h3>
+              <p>Unlimited high speed</p>
+          </div>
+          <div class="amenity">
+              <i class="fas fa-broom"></i>
+              <h3>House Keeping</h3>
+              <p>Alternating days</p>
+          </div>
+          <div class="amenity">
+              <i class="fas fa-bath"></i>
+              <h3>Bathroom</h3>
+              <p>Attached with hot water</p>
+          </div>
+          <div class="amenity">
+              <i class="fas fa-glass-whiskey"></i>
+              <h3>Drinking Water</h3>
+              <p>Available</p>
+          </div>
+          <div class="amenity">
+              <i class="fas fa-video"></i>
+              <h3>CCTV</h3>
+              <p>Available in common area</p>
+          </div>
+   
+    <!------- testimonials----- -->
+
+     <section class="testimonials" id="testimonials">
+      <h1>What Our student Says</h1>
+      <p>
+        
+      </p>
+      <div class="testimonials-col">
+        <i class="fa-solid fa-"></i>
+        <div>
+          <p>
+            "Living at TSP Boys Hostel has been a great experience. The rooms are clean, the food is delicious, and the staff is very friendly."
+          </p>
+          <h3>Anish</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+      <div class="testimonials-col">
+        <div>
+          <p>
+            "Living at nandhanam Boys Hostel has been a great experience. The rooms are clean, the food is delicious, and the staff is very friendly."
+          <h3>Dhinesh</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+<footer class="footer-grid">
+  <div class="item address">
+      <i class="fa fa-map-marker"></i>
+      <p>Nandhanam<br>ashok layot,sitra<br>civil aerodome, sitra<br>Coimbatore</p>
+  </div>
+  <div class="item contact">
+      <i class="fa fa-phone"></i>
+      <p>9846689367</p>
+  </div>
+  <div class="item timing">
+      <i class="fa fa-clock"></i>
+      <p>Mon-Fri: 9:00 AM - 5:00 PM</p>
+  </div>
+</footer>
+
+
+<section class="Footer">
+  <h4></h4>
+  <div class="icons">
+     <i class="fa-brands fa-facebook"></i>
+     <i class="fa-brands fa-twitter"></i>
+     <i class="fa-brands fa-google"></i> 
+  </div>
+</section>
+
+<footer class="footer1">
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>Contact Details</h3>
+          <div class="contact-item">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/marker.png" alt="Address Icon" width="24" height="24">
+              <p>civil aerodome,sitra, Coimbatore 641005</p>
+          </div>
+          <div class="contact-item">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Phone Icon" width="24" height="24">
+              <p>(+91)9846689367,9048877870<br> Call and Booking Now</p>
+          </div>
+          <div class="contact-item">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/email.png" alt="Email Icon" width="24" height="24">
+              <p>nmboysinfo@gmail.com <br> We reply within 24 hrs</p>
+          </div>
+      </div>
+      <div class="footer-section">
+          <h3>Find a Location</h3>
+          <div>
+              <iframe src="https://maps.app.goo.gl/HxXkrnwuHCnShojz9" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; Nandhanam Hostel. All Rights Reserved</p>
+  </div>
+</footer>
+
+
+
+  </body>
+</html>
